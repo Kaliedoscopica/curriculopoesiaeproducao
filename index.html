@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaliedoscópica | Portfólio Cultural</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased selection:bg-fuchsia-500 selection:text-white">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 glass-card border-b-0 py-4">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <a href="#" class="font-syne font-bold text-2xl tracking-wider text-white">
+                KALIEDOSCÓPICA<span class="text-neon">.</span>
+            </a>
+            <div class="hidden md:flex space-x-8 text-sm font-semibold tracking-wide">
+                <a href="#sobre" class="hover:text-fuchsia-400 transition-colors">SOBRE</a>
+                <a href="#projetos" class="hover:text-fuchsia-400 transition-colors">ATUAÇÃO</a>
+                <a href="#galeria" class="hover:text-fuchsia-400 transition-colors">GALERIA</a>
+                <a href="#trajetoria" class="hover:text-fuchsia-400 transition-colors">TRAJETÓRIA</a>
+                <a href="#contato" class="bg-neon text-white px-5 py-2 rounded-full hover:bg-fuchsia-500 transition-all">CONTATO</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient min-h-screen flex items-center pt-20 relative">
+        <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-20"></div>
+        <div class="container mx-auto px-6 relative z-10 grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <div class="inline-block px-4 py-1 rounded-full glass-card text-fuchsia-400 text-sm font-semibold tracking-widest mb-4">
+                    Kalie Sant'Anna
+                </div>
+                <h1 class="text-5xl md:text-7xl font-bold leading-tight">
+                    Poesia falada e <br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-500 to-purple-600">
+                        produção cultural.
+                    </span>
+                </h1>
+                <p class="text-xl text-gray-400 max-w-lg leading-relaxed">
+                    Slammaster, poeta, fundadora do Coletivo Mis Manes e estudante de LEA-MSI na UnB. Movimentando a cena literária das ruas aos festivais.
+                </p>
+                <div class="pt-4 flex gap-4">
+                    <a href="#projetos" class="bg-white text-black font-bold px-8 py-3 rounded-full hover:bg-gray-200 transition-colors">
+                        Ver Projetos
+                    </a>
+                    <a href="#galeria" class="glass-card text-white font-bold px-8 py-3 rounded-full hover:bg-white/10 transition-colors">
+                        Ver Fotos
+                    </a>
+                </div>
+            </div>
+            <div class="hidden md:flex justify-center">
+                <div class="w-80 h-80 rounded-full bg-gradient-to-tr from-fuchsia-600 to-purple-900 opacity-80 blur-2xl animate-pulse absolute"></div>
+                <div class="w-80 h-80 rounded-full border-2 border-fuchsia-500/30 relative flex items-center justify-center backdrop-blur-sm overflow-hidden">
+                    <img src="C:\Users\Davi Cezar Sant'Anna\Desktop\portfolio\imagens\hero\_MG_0195.JPG" alt="Kaliedoscópica apresentando-se">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mim -->
+<section id="sobre" class="py-24 bg-[#0a0a0c]">
+    <div class="container mx-auto px-6">
+        <div class="max-w-4xl mx-auto text-center mb-16">
+            <h2 class="text-3xl md:text-5xl font-bold mb-6">Múltiplas <span class="text-neon">Linguagens</span></h2>
+            <p class="text-lg text-gray-400">
+                Da academia às ruas, minha trajetória é construída através da palavra. Sou Kalie Sant'Anna (Kaliedoscópica), uma multiartista apaixonada por criar conexões socioculturais.
+            </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Slam & Performance - MAIOR DESTAQUE -->
+            <div class="glass-card p-8 rounded-2xl text-center group hover:border-fuchsia-500/40">
+                <div class="w-16 h-16 mx-auto bg-fuchsia-500/20 rounded-full flex items-center justify-center mb-6 group-hover:bg-fuchsia-500/30 transition-all">
+                    <i class="fas fa-microphone-alt text-2xl text-fuchsia-400"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Slammaster & Poeta</h3>
+                <p class="text-gray-400 text-sm">
+                    <strong class="text-white">13 edições do Slam Ocupa</strong> organizadas, competidora em <strong class="text-white">+7 slams do DF</strong>, representante no Torneio dos Slams em São Paulo e classificada consecutivamente no <strong class="text-white">Slam DFão 2024/2025</strong>.
+                </p>
+            </div>
+
+            <!-- Produção Cultural - DESTAQUE SECUNDÁRIO -->
+            <div class="glass-card p-8 rounded-2xl text-center group hover:border-fuchsia-500/40">
+                <div class="w-16 h-16 mx-auto bg-fuchsia-500/20 rounded-full flex items-center justify-center mb-6 group-hover:bg-fuchsia-500/30 transition-all">
+                    <i class="fas fa-users text-2xl text-fuchsia-400"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Produtora Cultural</h3>
+                <p class="text-gray-400 text-sm">
+                    Fundadora do <strong class="text-white">Coletivo Mis Manes</strong>, criando espaços seguros e promovendo diversidade na cena cultural. Performances em festivais, saraus e lançamentos literários.
+                </p>
+            </div>
+
+            <!-- Formação & Zines - REDUZIDO (agora compartilhado) -->
+            <div class="glass-card p-8 rounded-2xl text-center group hover:border-fuchsia-500/40">
+                <div class="w-16 h-16 mx-auto bg-fuchsia-500/10 rounded-full flex items-center justify-center mb-6 group-hover:bg-fuchsia-500/20 transition-all">
+                    <i class="fas fa-graduation-cap text-2xl text-fuchsia-400"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Formação & Publicações</h3>
+                <div class="space-y-3 text-sm text-gray-400">
+                    <p>Estudante de <strong class="text-white">LEA-MSI na UnB</strong></p>
+                    <div class="border-t border-white/5 pt-2">
+                        <p class="text-xs text-gray-500">Idiomas:</p>
+                        <div class="flex justify-center gap-3 mt-1">
+                            <span class="text-fuchsia-400 text-xs">EN Fluente</span>
+                            <span class="text-white text-xs">ES Intermediário</span>
+                            <span class="text-gray-500 text-xs">FR Básico</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Áreas de Atuação (Projetos) -->
+    <section id="projetos" class="py-24 bg-[#0e0e12] relative">
+    <div class="container mx-auto px-6">
+        <h2 class="text-3xl md:text-5xl font-bold mb-16 text-center">Frentes de <span class="text-neon">Atuação</span></h2>
+        
+        <div class="grid md:grid-cols-2 gap-10">
+            <!-- Slam Ocupa -->
+            <div class="group relative overflow-hidden rounded-3xl glass-card">
+                <div class="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-transparent z-10"></div>
+                <img src="imagens\hero\332_SlamOcupa2.jpg" alt="Slam Poesia" class="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-700">
+                <div class="absolute bottom-0 left-0 w-full p-8 z-20">
+                    <div class="flex justify-between items-end mb-2">
+                        <div class="text-fuchsia-400 text-xs font-bold tracking-widest uppercase">Liderança & Poesia</div>
+                        <div class="bg-fuchsia-600/30 border border-fuchsia-500 text-white text-xs px-2 py-1 rounded">2024 - 2025</div>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">Slammaster no Slam Ocupa</h3>
+                    <p class="text-gray-300 text-sm">
+                        Apresentação e organização de <strong class="text-white">13 edições do Slam Ocupa</strong> (15/06/2024 a 24/10/2025). Fomentando a literatura periférica e a oralidade como instrumentos de resistência no DF.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Coletivo Mis Manes -->
+            <div class="group relative overflow-hidden rounded-3xl glass-card">
+                <div class="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-transparent z-10"></div>
+                <img src="imagens\hero\IMG-20250223-WA0029.jpg" alt="Coletivo Mis Manes" class="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-700">
+                <div class="absolute bottom-0 left-0 w-full p-8 z-20">
+                    <div class="flex justify-between items-end mb-2">
+                        <div class="text-fuchsia-400 text-xs font-bold tracking-widest uppercase">Produção Cultural</div>
+                        <div class="bg-fuchsia-600/30 border border-fuchsia-500 text-white text-xs px-2 py-1 rounded">2024 - 2026</div>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">Fundadora do Coletivo Mis Manes</h3>
+                    <p class="text-gray-300 text-sm">
+                        Idealizadora do coletivo focado em criar espaços seguros, promover a arte, a diversidade e angariar representatividade na cena cultural.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Galeria Viva -->
+<section id="galeria" class="py-24 bg-[#0a0a0c]">
+    <div class="container mx-auto px-6">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-12">
+            <div>
+                <h2 class="text-3xl md:text-5xl font-bold mb-4">Registros <span class="text-neon">Visuais</span></h2>
+                <p class="text-gray-400">Pelas ruas, rodas e palcos.</p>
+            </div>
+            <p class="text-sm text-fuchsia-500 mt-4 md:mt-0"><i class="fas fa-camera mr-2"></i>Momentos de 2024-2026</p>
+        </div>
+
+        <!-- Categoria 1: Slam (MAIOR DESTAQUE) -->
+        <div class="mb-16">
+            <div class="flex items-center gap-3 mb-6">
+                <span class="text-2xl">🎤</span>
+                <h3 class="text-xl font-bold text-white">Slams de Poesia</h3>
+                <div class="h-px flex-1 bg-gradient-to-r from-fuchsia-500/50 to-transparent"></div>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div class="group relative overflow-hidden rounded-xl aspect-square">
+                    <img src="imagens\hero\Copy of postkalie (1).JPG" alt="Slammaster do Slam Ocupa no Coletivo RIA" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                        <p class="text-white text-sm font-semibold">Slam Ocupa no RIA</p>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-xl aspect-square">
+                    <img src="imagens\hero\IMG-20250813-WA0009.jpg" alt="Torneio dos Slams SP" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                        <p class="text-white text-sm font-semibold">Slam da Guilhermina - SP</p>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-xl aspect-square">
+                    <img src="imagens\hero\IMG-20251224-WA0026.jpg" alt="Palco do Slam DFão 2025" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                        <p class="text-white text-sm font-semibold">Slam DFão 2025</p>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-xl aspect-square">
+                    <img src="imagens\hero\IMG-20250913-WA0114.jpg" alt="foto de grupo na Expedito Xavier 2" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                        <p class="text-white text-sm font-semibold">Slam na ocupação Expedito Xavier</p>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-xl aspect-square">
+                    <img src="imagens\hero\Captura de tela 2026-01-07 182651 (1).png" alt="Print do post de classificada pelo Slam Botofé" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                        <p class="text-white text-sm font-semibold">Classificatória pro DFão 2024 Slam Botofé</p>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-xl aspect-square">
+                    <img src="imagens\hero\IMG_20260630_160352.jpg" alt="Premiações de Slam" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                        <p class="text-white text-sm font-semibold">Troféus de Slam</p>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-xl aspect-square">
+                    <img src="imagens\hero\Copy of slam (19).JPG" alt="Apresentação no slam OrÔ de poesias" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                        <p class="text-white text-sm font-semibold">Palco do Slam OrÔ</p>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-xl aspect-square">
+                    <img src="imagens\hero\image.png" alt="storie do Slam DeF para poetas classificados" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                        <p class="text-white text-sm font-semibold">Flyer Slam DeF</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Categoria 2: Eventos & Festivais (DESTAQUE SECUNDÁRIO) -->
+        <div class="mb-16">
+            <div class="flex items-center gap-3 mb-6">
+                <span class="text-2xl">🎪</span>
+                <h3 class="text-xl font-bold text-white">Outros Eventos</h3>
+                <div class="h-px flex-1 bg-gradient-to-r from-fuchsia-500/50 to-transparent"></div>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div class="group relative overflow-hidden rounded-xl aspect-square">
+                    <img src="imagens\hero\IMG_20241128_122531087 (2).jpg" alt="crachá do FINCA UnB" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                        <p class="text-white text-sm font-semibold">Festival FINCA - UnB</p>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-xl aspect-square">
+                    <img src="imagens\hero\IMG_20250130_232533274.jpg" alt="foto com Amara Moira pós lançamento na BDB" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                        <p class="text-white text-sm font-semibold">Lançamento de Neca na BDB</p>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-xl aspect-square">
+                    <img src="imagens\hero\20240913_180142.jpg" alt="Sarau Mis Manes" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                        <p class="text-white text-sm font-semibold">Sarau Mis Manes</p>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-xl aspect-square">
+                    <img src="imagens\hero\Cópia de IMG_9391 (2).JPG" alt="apresentação no Sarau Refúgio Noturno" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                        <p class="text-white text-sm font-semibold">Refúgio Noturno no Cia Lábios da Lua</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+    <!-- Trajetória / Timeline -->
+    <section id="trajetoria" class="py-24 bg-[#0e0e12]">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <h2 class="text-3xl md:text-5xl font-bold mb-16 text-center">Trajetória e <span class="text-neon">Marcos</span></h2>
+            
+            <div class="space-y-12 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-fuchsia-500 before:via-purple-500 before:to-transparent">
+                
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-[#0e0e12] bg-fuchsia-500 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
+                        <i class="fas fa-plane text-sm"></i>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] glass-card p-6 rounded-2xl custom-border">
+                        <span class="inline-block text-fuchsia-400 font-bold text-xs mb-2">NACIONAL • SÃO PAULO</span>
+                        <h3 class="font-bold text-xl mb-2">Torneio dos Slams (Slam da Guilhermina)</h3>
+                        <p class="text-gray-400 text-sm mb-4">
+                            Expansão da palavra para além do DF, apresentando-se pelo Slam do Céu no torneio organizado pelo Slam da Guilhermina na cidade de São Paulo.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-[#0e0e12] bg-purple-600 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
+                        <i class="fas fa-trophy text-sm"></i>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] glass-card p-6 rounded-2xl custom-border">
+                        <span class="inline-block text-purple-400 font-bold text-xs mb-2">CAMPEONATO DISTRITAL • 2024 & 2025</span>
+                        <h3 class="font-bold text-xl mb-2">Classificatória Slam DFão</h3>
+                        <div class="flex flex-col sm:flex-row gap-4 items-center">
+                            <p class="text-gray-400 text-sm">
+                                Classificação alcançada por dois anos consecutivos no Slam DFão, consolidando a voz e os versos autorais na mais importante disputa distrital de poesia falada.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-[#0e0e12] bg-pink-600 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
+                        <i class="fas fa-fire text-sm"></i>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] glass-card p-6 rounded-2xl custom-border">
+                        <span class="inline-block text-pink-400 font-bold text-xs mb-2">CIRCUITO COMPETITIVO • 2024 a 2026</span>
+                        <h3 class="font-bold text-xl mb-2">Ocupando Diversos Slams</h3>
+                        <p class="text-gray-400 text-sm">
+                            Participação massiva e combativa em múltiplas competições pelo DF ao longo de três anos, incluindo: <strong>Slam DeF, Botofe, Grito Periférico, Resgate Poético, Q'brada e Quebrada em Versos</strong>.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-[#0e0e12] bg-fuchsia-500 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
+                        <i class="fas fa-ticket-alt text-sm"></i>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] glass-card p-6 rounded-2xl custom-border">
+                        <span class="inline-block text-fuchsia-400 font-bold text-xs mb-2">APRESENTAÇÃO ACADÊMICA E CULTURAL • 28/11/2024</span>
+                        <h3 class="font-bold text-xl mb-2">Festival FINCA (UnB)</h3>
+                        <p class="text-gray-400 text-sm">
+                            Performance marcante nos palcos do FINCA da Universidade de Brasília, unindo a arte de rua com o ambiente acadêmico.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-[#0e0e12] bg-purple-600 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
+                        <i class="fas fa-book-reader text-sm"></i>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] glass-card p-6 rounded-2xl custom-border">
+                        <span class="inline-block text-purple-400 font-bold text-xs mb-2">LITERATURA • 2024/2025</span>
+                        <h3 class="font-bold text-xl mb-2">Apresentações na BDB</h3>
+                        <p class="text-gray-400 text-sm">
+                            Convidada para apresentar poesias em <strong>três lançamentos de livros</strong> realizados na Biblioteca Demonstrativa de Brasília (BDB), integrando e prestigiando a cena literária do planalto.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="py-24 bg-[#050505] relative overflow-hidden">
+        <div class="absolute inset-0 bg-fuchsia-900/10"></div>
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="max-w-2xl mx-auto glass-card p-10 rounded-3xl text-center">
+                <h2 class="text-3xl font-bold mb-4">Vamos criar <span class="text-neon">juntos?</span></h2>
+                <p class="text-gray-400 mb-8">
+                    Seja para convites de slam, mediação, curadoria, festivais, produção cultural ou projetos multilíngues, vumbora!
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="mailto:kaliezinea@gmail.com" class="bg-white text-black font-bold px-8 py-3 rounded-full hover:bg-gray-200 transition-colors flex items-center justify-center gap-2">
+                        <i class="fas fa-envelope"></i> Enviar E-mail
+                    </a>
+                    <a href="https://www.instagram.com/kaliedoscopica/" target="_blank" class="border border-white/20 text-white font-bold px-8 py-3 rounded-full hover:bg-white/5 transition-colors flex items-center justify-center gap-2">
+                        <i class="fab fa-instagram text-fuchsia-400"></i> Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#050505] py-8 border-t border-white/5 text-center text-sm text-gray-500">
+        <div class="container mx-auto px-6">
+            <p>&copy; 2026 Kaliedoscópica (Kalie Sant'Anna). Todos os direitos reservados.</p>
+            <p class="mt-2">Produção Cultural • Poesia • Zines</p>
+        </div>
+    </footer>
+</body>
+</html>

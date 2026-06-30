@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&family=Syne:wght@400;600;800&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #0a0a0c;
+    color: #e5e7eb;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .font-syne {
+    font-family: 'Syne', sans-serif;
+}
+
+.text-neon {
+    color: #d946ef;
+    text-shadow: 0 0 20px rgba(217, 70, 239, 0.4);
+}
+
+.bg-neon {
+    background-color: #d946ef;
+    box-shadow: 0 0 15px rgba(217, 70, 239, 0.5);
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.glass-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(217, 70, 239, 0.3);
+}
+
+.hero-gradient {
+    background: radial-gradient(circle at top left, #2e1065 0%, #0a0a0c 50%);
+}
+
+.custom-border {
+    border-left: 4px solid #d946ef;
+}
+
+/* NOVO: Estilos para a Galeria Masonry */
+.masonry-grid {
+    column-count: 1;
+    column-gap: 1.5rem;
+}
+@media (min-width: 640px) { .masonry-grid { column-count: 2; } }
+@media (min-width: 1024px) { .masonry-grid { column-count: 3; } }
+.masonry-item {
+    break-inside: avoid;
+    margin-bottom: 1.5rem;
+}
